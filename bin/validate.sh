@@ -2,6 +2,8 @@
 
 set -e -u -o pipefail
 
+
+
 JSTACK=$(which jstack)
 
 if [[ "$JSTACK" == "" ]]; then
